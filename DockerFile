@@ -1,0 +1,9 @@
+FROM node:latest
+LABEL MAINTAINER "Personalization"
+RUN mkdir /usr/src/app
+WORKDIR /usr/src/app
+COPY package.json /usr/src/app
+COPY gulpfile.js /usr/src/app
+RUN npm install --silent && npm install -g gulp --silent
+EXPOSE 8080
+CMD ["gulp", "start"]

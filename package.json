@@ -1,0 +1,39 @@
+{
+  "name": "personalization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huseyinbilgili/simple-angularjs-application.git"
+  },
+  "author": "Hüseyin Bilgili",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-jwt": "^0.1.10",
+    "angular-local-storage": "^0.7.1",
+    "angular-route": "^1.7.2",
+    "crypto-js": "^3.1.9-1",
+    "gulp-install": "^1.1.0",
+    "lodash": "^4.17.10",
+    "multiselect-two-sides": "^2.5.5",
+    "ngstorage": "^0.3.11"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-uglify": "^3.0.1",
+    "jquery": "^3.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/huseyinbilgili/simple-angularjs-application/issues"
+  },
+  "homepage": "https://github.com/huseyinbilgili/simple-angularjs-application#readme"
+}

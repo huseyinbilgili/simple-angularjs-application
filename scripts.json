@@ -1,0 +1,13 @@
+[
+    "./node_modules/angular/angular.js",
+    "./node_modules/angular-route/angular-route.js",
+    "./node_modules/ngstorage/ngStorage.min.js",
+    "./node_modules/jquery/dist/jquery.min.js",
+    "./node_modules/angular-jwt/angular-jwt.min.js",
+    "./node_modules/crypto-js/crypto-js.js",
+    "./src/js/**/*.js",
+    "./src/js/vendor/plugins/*.js",
+    "./node_modules/multiselect-two-sides/dist/js/multiselect.js",
+    "./node_modules/lodash/lodash.js"
+
+]
